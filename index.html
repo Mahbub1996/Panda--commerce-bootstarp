@@ -8,13 +8,18 @@
 
     <!-- bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- css link custom -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     
     <header>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
+      <!-- navbar bootstrap -->
+
+        <nav class="navbar navbar-expand-lg navbar-light b fixed-top" style="background-color: #E5E5E5;">
+            <div class="container ">
               <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="" class="d-inline-block align-text-top">
                 
@@ -30,15 +35,15 @@
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpake</a>
+                    <a class="nav-link" href="#Backpake">Backpake</a>
                   </li>
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#Subscribe">Subscribe</a>
                   </li>
                   
                   
@@ -48,19 +53,21 @@
             </div>
           </nav>
 
-          <!-- image-slider-head -->
+          <!---------------------------------
+            ----------image-slider-head ---->
+
           <section class="container my-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner rounded-3">
                 <div class="carousel-item active ">
-                    <div class="row bg-info bg-gradient d-flex align-items-center p-5 ">
+                    <div class="row panda-bg-info bg-gradient d-flex align-items-center p-5 ">
                         <div class="col-lg-7 ">
                           <h1>Cool Dude Headphone
                           </h1>
                           <p>This is the best headphone in the world for people who just want to waste time in front of funky world.
                           </p>
                           <h1>$420</h1>
-                          <button class="btn btn-warning">Buy NOW</button>
+                          <button class="btn ">Buy NOW</button>
                         </div>
 
                         <div class="col-lg-5">
@@ -70,14 +77,14 @@
                 </div>
 
                 <div class="carousel-item">
-                  <div class="row bg-danger bg-gradient d-flex align-items-center p-5 ">
+                  <div class="row panda-bg-info bg-gradient d-flex align-items-center p-5 ">
                     <div class="col-lg-7 ">
                       <h1>Mega LCD TV For Sports
                       </h1>
                       <p>This is the best tv in the world for people who just want to waste time in front of tv.
                       </p>
                       <h1>$1200</h1>
-                      <button class="btn btn-warning">Buy NOW</button>
+                      <button class="btn ">Buy NOW</button>
                     </div>
 
                     <div class="col-lg-5">
@@ -87,13 +94,13 @@
                 </div>
 
                 <div class="carousel-item ">
-                  <div class="row bg-warning bg-gradient d-flex align-items-center p-5 ">
+                  <div class="row panda-bg-info bg-gradient d-flex align-items-center p-5 ">
                     <div class="col-lg-7 ">
                       <h1>X-Box for your living room                      </h1>
                       <p>This is the best x-box in the world for people who just want to waste time in front of fake sports.
                       </p>
                       <h1>$600</h1>
-                      <button class="btn btn-warning">Buy NOW</button>
+                      <button class="btn ">Buy NOW</button>
                     </div>
 
                     <div class="col-lg-5">
@@ -122,7 +129,8 @@
 
     <main>
 
-        <!-- cetagoryes -->
+        <!------------------------------
+          --------cetagoryes section -->
         <section class="container my-5">
           
             <div class="row g-4">
@@ -155,9 +163,11 @@
           
         </section>
 
-        <!-- shoes shooping card -->
-        <section class="container my-5">
-          <h1 class="bg-warning">Shoes</h1>
+        <!---------------------------------
+          ---------- shoes shooping card -->
+
+        <section class="container my-5" id="shoes">
+          <h1 class="shoes-color">Shoes</h1>
           <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
 
             <div class="col ">
@@ -169,7 +179,7 @@
                 </div>
                 <h3 class="ms-3 text-danger">$120</h3>
                 <div class="card-footer border-0">
-                  <button class="btn btn-danger">Buy NOW</button>
+                  <button class="btn ">Buy NOW</button>
                 </div>
               </div>
             </div>
@@ -183,7 +193,7 @@
                 </div>
                 <h3 class="ms-3 text-danger">$320</h3>
                 <div class="card-footer border-0">
-                  <button class="btn btn-danger">Buy NOW</button>
+                  <button class="btn ">Buy NOW</button>
                 </div>
               </div>
             </div>
@@ -197,16 +207,18 @@
                 </div>
                 <h3 class="ms-3 text-danger">$350</h3>
                 <div class="card-footer border-0">
-                  <button class="btn btn-danger">Buy NOW</button>
+                  <button class="btn ">Buy NOW</button>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
+        <!--------------------------------------
+        -------Backpack section bootstrap ------>
 
-        <section class="container my-5">
-          <h1 class="bg-danger">Backpakes</h1>
+        <section class="container my-5" id="Backpake">
+          <h1 class="backpacks-color">Backpakes</h1>
           <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
 
             <div class="col ">
@@ -219,7 +231,7 @@
                 </div>
                 
                 <div class="card-footer border-0">
-                  <button class="btn btn-danger">Buy NOW</button>
+                  <button class="btn ">Buy NOW</button>
                 </div>
               </div>
             </div>
@@ -234,7 +246,7 @@
                 </div>
                 
                 <div class="card-footer border-0">
-                  <button class="btn btn-danger">Buy NOW</button>
+                  <button class="btn ">Buy NOW</button>
                 </div>
               </div>
             </div>
@@ -249,19 +261,36 @@
                 </div>
                 
                 <div class="card-footer border-0">
-                  <button class="btn btn-danger">Buy NOW</button>
+                  <button class="btn ">Buy NOW</button>
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+
+        <!--------------------------------------
+        ------subscribe section bootstrap------>
+
+        <section style="height: 400px;" class="container panda-bg-info d-flex justify-content-center align-items-center rounded-3" id="Subscribe">
+          <div>
+            <h1>LET'S STAY IN TOUCH</h1>
+            <p>Get updates on sales specials and more</p>
+            <input class="form-control" type="text" placeholder="Enter Your Email">
+            <br>
+            <button class="btn ">SUBMIT</button>
           </div>
         </section>
         
     </main>
 
 
-    <footer>
+    <footer class="pt-5 text-center">
+      <p><small>All rights by mahbub, 2021 july Copyrights.</small></p>
 
     </footer>
+
+
     <!-- bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

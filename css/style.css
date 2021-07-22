@@ -1,0 +1,30 @@
+.panda-bg-info{
+    background-color: #FEEAE9;
+}
+
+button{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+
+.shoes-color{
+    background-color: #000000;
+    color: white;
+    width: 150px;
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+.backpacks-color{
+    background-color: #000000;
+    color: white;
+    width: 220px;
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
